@@ -1,0 +1,1053 @@
+
+/* .banner1 {
+    min-height: 680px;
+    background-image: url("../image/banner1-mobile.webp");
+    background-size: cover;
+    background-repeat: round;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  } */
+  /* .banner1__info {
+    vertical-align: middle;
+  }
+  .banner1__info__wts,
+  .banner1__info__tell {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    font-family: "IRANSansXFaNum-Bold";
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: #403f3f;
+    align-items: center;
+  }
+  .banner1__info__tell span {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    margin-left: 15px;
+  }
+  .banner1__info__wts span {
+    width: 34px;
+    height: 34px;
+    background-color: #16a34a;
+    padding: 6px;
+    border-radius: 10px;
+    margin-left: 35px;
+    align-items: center;
+    vertical-align: middle;
+  }
+  .banner1__info__wts span img {
+    width: 21px;
+    height: 21px;
+    margin: auto;
+    color: #16a34a;
+  } */
+  /* ------------------commiunity    استایل های */
+  .commiunity-box {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+    background-color: rgb(255 255 255 / 1);
+    background-image: url("../image/commiunity-background.png");
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .why-youtopin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #403f3f;
+    font-family: "IRANSansXFaNum-Bold";
+    font-size: 1rem;
+    margin: 10px, 0;
+    padding-bottom: 29px;
+  }
+  .commiunity {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .commiunity__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .commiunity__section img {
+    width: 2.75rem;
+    height: 2.75rem;
+  }
+  .commiunity__section span {
+    color: #403f3f;
+    font-family: "IRANSansXFaNum-Medium";
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 500;
+    margin-top: 18px;
+  }
+  /* ---------------------banner2    استایل های  */
+  .banner2 {
+    height: 408px;
+    background-image: url("../image/banner2.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 17px 0;
+  }
+  .banner2__mobile-pic {
+    display: none;
+  }
+  .banner2 p {
+    color: rgb(64 63 63/ 1);
+    font-family: "IRANSansXFaNum-Bold";
+    font-size: 0.75rem;
+    margin: 13px;
+    padding: 4px 0;
+  }
+  .banner2 button {
+    width: 215px;
+    color: #ffffff;
+    background-color: #26b9b0;
+    font-family: "IRANSansX-Regular";
+    font-size: 0.75rem;
+    line-height: 1rem;
+    text-align: center;
+    padding: 7.5px;
+    border: none;
+    border-radius: 5px;
+  }
+  /* -----------------trvelogue   استایل های*/
+  /* .travelogue {
+    height: fit-content;
+  }
+  .travelogue__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "IRANSansXFaNum-Medium";
+    color: rgb(64 63 63/ 1);
+    font-size: 0.75rem;
+  }
+  .travelogue > div {
+    padding: 29px 17px;
+  }
+  .travelogue__title {
+    font-family: "IRANSansXFaNum-Medium";
+    font-size: 1rem;
+    color: rgb(64 63 63/ 1);
+  }
+  .travelogue__card-box {
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    padding: 34px 0 9px;
+    overflow: scroll;
+  }
+  .travelogue__card-box{
+    scroll-snap-type:x mandatory;
+  }
+  
+   */
+  
+  /* مخفی کردن نوار اسکرول  */
+  /* ::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+  .card {
+    width: fit-content;
+    height: fit-content;
+    padding: 17px;
+    border-radius: 15px;
+    margin-left: 35px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  .card:hover {
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.25);
+  }
+  .card__header {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 17px;
+  }
+  .header__prof {
+    width: 3.5rem;
+    border-radius: 50%;
+    border: 2px solid #2cb34e;
+    object-fit: cover;
+  }
+  
+  .header__text {
+    margin-right: 10px;
+  }
+  .header__text p {
+    font-family: "IRANSansXFaNum-Bold";
+    font-size: 0.75rem;
+    line-height: 25px;
+    color: rgb(64 63 63/ 1);
+  }
+  .card__img {
+    width: 255px;
+    height: 289px;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  .go-next,
+  .go-back {
+    display: none;
+  }
+   */
+  /*-------------------question-box  استایل های*/
+  /* .questions-box {
+    padding: 85px 25px;
+  }
+  .questions-box__title {
+    color: rgb(64, 63, 63);
+    font-family: "IRANSansXFaNum-Medium";
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    padding: 17px 5px 34px;
+  }
+  .hr {
+    border-bottom: 0.3px;
+    border-color: #18e9db;
+    opacity: 80%;
+  }
+  .questions-box__list {
+    padding: 0 8.5px;
+  }
+  .question {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.235);
+    border-radius: 10px;
+  }
+  .label-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 12px 4.5px;
+    justify-content: flex-start;
+    outline: 2px solid transparent;
+    border-radius: 5px;
+    gap: 10px;
+    cursor: pointer;
+  }
+  .label-container:hover {
+    background-color: rgb(229 231 235/ 1);
+  }
+  .arrow-icon {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+  }
+  .arrow-icon.rotate {
+    width: 20px;
+    height: 20px;
+    transform: rotate(180deg);
+  } */
+/*  
+  .label-title {
+    flex-grow: 1; 
+    text-align: right;
+    font-family: "IRANSansXFaNum-Medium";
+    color: rgb(64 63 63/ 1);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  .content {
+    display: none;
+    color: rgb(117 117 117/ 1);
+    padding: 17px 17px 34px;
+    font-family: "IRANSansX-Regular";
+    border-radius: 8px;
+    font-size: 0.75rem;
+    line-height: 1.1rem;
+    letter-spacing: 0.3px;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .content p {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  input[type="checkbox"]:checked ~ .content {
+    display: block;
+  } */
+  /*------------------------subscription استایل های*/
+  /* .subscription {
+    height: fit-content;
+    background-color: #f7fffe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 34px 0;
+  }
+  .subscription__img__hidden {
+    display: none;
+  }
+  .subscription__logo__hidden {
+    display: none;
+  }
+  .subscription__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .subscription__title {
+    color: rgb(38 185 176);
+    font-family: "IRANSansXFaNum-DemiBold";
+    font-weight: 2000;
+    padding: 17px 0;
+  }
+  .subscription__offer {
+    color: rgb(64 63 63);
+    font-family: "IRANSansX-Regular";
+    font-size: 0.75rem;
+    line-height: 1rem;
+    padding: 17px 0;
+  }
+  .subscription__access {
+    padding-bottom: 25px;
+  }
+  .access-card {
+    display: flex;
+    padding: 4.5px 0;
+    font-family: "IRANSansXFaNum-DemiBold";
+    font-size: 0.65rem;
+    line-height: 1.3rem;
+  }
+  .access-card img {
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+  .subscription__button {
+    width: fit-content;
+    font-family: "IRANSansXFaNum-DemiBold";
+    background-color: rgb(38 185 176);
+    font-size: 0.65rem;
+    padding: 12px;
+    border-radius: 5px;
+  }
+  .subscription__button a {
+    text-decoration: none;
+    color: #ffff; */
+    /* line-height: 2rem; */
+    /* margin-left: 8px;
+  }
+  .subscription__button img {
+    width: 12px;
+    height: 12px;
+    color: #ffff; */
+    /* line-height: rem; */
+ 
+  /*---------------------------- email-request-box  استایل های*/
+  /* .email-request-box {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .email-request__title h5 {
+    color: rgb(64 63 63/ 1);
+    text-align: center;
+    font-family: "KalamehWebFaNum-Bold";
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  .email-request__title p {
+    color: rgb(64 63 63/ 1);
+    font-family: "IRANSansX-Regular";
+    line-height: 1rem;
+    font-size: 0.75rem;
+    padding: 17px 0;
+  }
+  .email-request__input-container {
+    display: flex;
+    width: 100%;
+    overflow: hidden; 
+    justify-content: center;
+    padding: 29px 0;
+  }
+  .email-request__input-container input {
+    min-width: 20.5rem;
+    padding: 0.75rem 0.5rem;
+    font-size: 14px;
+    font-family: "IRANSansX-Regular";
+    border: 0.5px solid rgb(236, 240, 240);
+    border-radius: 5px;
+    outline: none;
+    border-radius: 8px;
+  }
+  .email-request__input-container input:focus {
+    border-color: darkcyan;
+  }
+  .email-request__input-container button {
+    width: 12%;
+    font-family: "IRANSansXFaNum-Medium";
+    color: rgb(255 255 255);
+    background-color: rgb(38 185 176);
+    font-size: 0.625rem;
+    padding: 0.86rem 0.65rem;
+    border: none;
+    position: relative;
+    left: 9px;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+  } */
+  /*----------------------------------footer  استایل های*/
+  /* .footer {
+    height: fit-content;
+    padding: 17px;
+    border-top: 2px solid rgba(228, 223, 223, 0.688);
+  }
+  .footer__social-media {
+    width: 100%;
+    height: 200px;
+    border-bottom: 3px rgb(107 114 128);
+  }
+  .social-media__support {
+    color: rgb(64 63 63/ 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    font-family: "IRANSansX-Regular";
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+  }
+  .social-media__support span {
+    color: black;
+    margin-top: 10px;
+    font-family: "IRANSansXFaNum-Medium";
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  .social-media__support__phone {
+    display: flex;
+  }
+  .social-media__support__phone img {
+    width: 20px;
+    transform: scaleX(-1);
+    margin-left: 8px;
+  }
+  .social-media__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "IRANSansX-Regular";
+    font-size: 0.9rem;
+    line-height: 1rem;
+    margin-top: 10px;
+  }
+  .social-media__icon {
+    width: 180px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .social-media__icons img {
+    filter: invert(1);
+    width: 40px;
+    padding: 8px;
+    background-color: rgba(207, 205, 205, 0.303);
+    border-radius: 5px;
+  }
+  .footer__links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    border-top: 2px solid rgb(90, 90, 91);
+  }
+  .footer__link__ul {
+    list-style-type: none;
+  }
+  .footer__link__ul li {
+    padding: 7px 0;
+  }
+  .footer__link__ul a {
+    color: rgb(64 63 63/ 1);
+    font-family: "IRANSansX-Regular";
+    font-size: 0.75rem;
+    text-decoration: none;
+  }
+  .footer__certificates {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    border-top: 2px solid rgb(90, 90, 91);
+    border-bottom: 2px solid rgba(228, 223, 223, 0.688);
+  }
+  .footer__certificates img {
+    width: 65px;
+    height: 65px;
+    margin-left: 25px;
+    border-radius: 10px;
+    background-color: rgba(228, 223, 223, 0.688);
+  }
+  .site-owner-note {
+    font-family: "IRANSansX-Regular";
+    font-size: 0.6rem;
+    text-align: center;
+    margin-top: 20px;
+  } */
+  @media (min-width: 640px) {
+    /* .container {
+      max-width: 1024px;
+      width: 100%;
+      margin: 0 auto;
+    } */
+    .banner1 {
+      width: 100%;
+      min-height: 160px;
+      background-image: url("../image/banner1-desktab.webp");
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+      position: relative;
+    }
+    .banner1__info {
+      display: flex;
+      position: absolute;
+      bottom: 10px;
+    }
+    .banner1__info__wts,
+    .banner1__info__tell {
+      margin-left: 10px;
+      margin-bottom: 0;
+      justify-content: space-around;
+      font-size: 0.75rem;
+    }
+    .banner1__info__tell span {
+      font-size: 0.75rem;
+      line-height: 1rem;
+      margin-left: 15px;
+    }
+    .banner1__info__wts span {
+      margin-left: 8px;
+    }
+  
+    /* --------------------------------------- commiunity*/
+  
+    .commiunity {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  
+   
+    /*----------------------------------------------banner2*/
+    .banner2 p {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin: 25px 0;
+    }
+    .banner2 button {
+      width: 315px;
+      font-size: 1rem;
+      padding: 22px 0;
+      border-radius: 8px;
+    }
+    /* --------------------------------------trovelouge*/
+    /* .travelogue { */
+      /* height: fit-content; */
+      /* padding-top: 8rem;
+    } */
+    /* .travelogue__text { */
+      /* display: flex;
+      align-items: center;
+      justify-content: center; */
+      /* font-family: "IRANSansXFaNum-Bold"; */
+      /* color: rgb(64 63 63/ 1); */
+      /* font-size: 1rem;
+    } */
+    /* .travelogue > div {
+      padding: 29px 26px;
+      position: relative;
+    } */
+    /* .travelogue__title {
+      padding-right: 17px;
+      font-family: "IRANSansXFaNum-Bold";
+      font-size: 1rem; */
+      /* color: rgb(64 63 63); */
+    /* } */
+    /* .go-next,
+    .go-back {
+      display: block;
+      width: 2.2rem;
+      height: 2.2rem;
+      padding: 8.5px;
+      position: absolute;
+      left: 0.5rem;
+      z-index: 20;
+      display: flex; */
+      /* -webkit-box-pack: center; */
+      /* justify-content: center; */
+      /* -webkit-box-align: center; */
+      /* align-items: center;
+      border-radius: 0.5rem; */
+      /* --tw-bg-opacity: 0.8; */
+      /* background-color:#ffffff;
+      top: 50%;
+    } */
+    .go-back {
+      transform: scaleX(-1);
+      right: 0.5rem;
+    }
+    /* .travelogue__card-box {
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        overflow: auto;
+        padding: 34px 0 9px;
+        overflow: auto;
+      } */
+    /* مخفی کردن نوار اسکرول  */
+    /* ::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+      }
+      .card {
+        width: fit-content;
+        height: fit-content;
+        padding: 17px;
+        border-radius: 15px;
+        margin-left: 35px;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease-in-out;
+      }
+      .card:hover {
+        box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.25);
+      }
+      .card__header {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 17px;
+      }
+      .header__prof {
+        width: 3.5rem;
+        border-radius: 50%;
+        border: 2px solid #47df0c;
+        object-fit: cover;
+      }
+    
+      .header__text {
+        margin-right: 10px;
+      }
+      .header__text p {
+        font-family: "IRANSansXFaNum-Bold";
+        font-size: 0.75rem;
+        line-height: 25px;
+        color: rgb(64 63 63/ 1);
+      }
+      .card__img {
+        width: 255px;
+        height: 289px;
+        object-fit: cover;
+        border-radius: 15px;
+      } */
+    /*-------------------------------subscription*/
+    
+    /*--------------------------------------email-request-box*/
+    /* .email-request-box { */
+      /* height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; */
+      /* padding: 100px 0 50px; */
+    /* } */
+    /* .email-request__title h5 { */
+      /* color: rgb(64 63 63/ 1);
+        text-align: center; */
+      /* font-family: "KalamehWebFaNum-Bold";
+      font-size: 1.5rem; */
+      /* font-weight: 700; */
+    /* } */
+    /* .email-request__title p { */
+      /* color: rgb(64 63 63/ 1);
+        font-family: "IRANSansX-Regular"; */
+      /* line-height: 1rem;
+      font-weight: 500;
+      font-size: 0.9rem; */
+      /* padding: 17px 0; */
+    /* } */
+    /* .email-request__input-container {
+        padding: 29px 0;
+      } */
+    /* .email-request__input-container input {
+      min-width: 26rem;
+      padding: 0.9rem 0.8rem;
+      font-size: 15px;
+      font-family: "IRANSansX-Regular"; */
+      /* border: 0.5px solid rgb(236, 240, 240);
+        border-radius: 5px;
+        outline: none;
+        border-radius: 8px; */
+    /* } */
+    /* .email-request__input-container input:focus {
+        border-color: darkcyan;
+      } */
+    /* .email-request__input-container button {
+      width: 17%;
+      font-family: "IRANSansXFaNum-Medium"; */
+      /* color: rgb(255 255 255);
+        background-color: rgb(38 185 176); */
+      /* font-size: 15px; */
+      /* padding: 0.86rem 0.65rem;
+        border: none;
+        position: relative;
+        left: 9px;
+        border-top-left-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem; */
+    /* } */
+    /*-----------------------------------------footer*/
+    .footer {
+      display: grid;
+      height: fit-content;
+      padding: 17px;
+      border-top: 2px solid rgba(228, 223, 223, 0.688);
+      border-bottom: 2px solid rgba(228, 223, 223, 0.688);
+    }
+    .footer__social-media {
+      width: 100%;
+      height: 150px;
+      display: flex;
+      justify-content: space-around;
+      border-bottom: none;
+      grid-column-start: 1;
+      grid-column-end: 4;
+    }
+    .social-media__support {
+      width: 45%;
+      /* color: rgb(64 63 63/ 1);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+        font-family: "IRANSansX-Regular";
+        font-size: 0.9rem;
+        line-height: 1.8rem; */
+    }
+    /* .social-media__support span {
+        color: black;
+        margin-top: 10px;
+        font-family: "IRANSansXFaNum-Medium";
+        font-size: 1.2rem;
+        font-weight: 500;
+      }
+      .social-media__support__phone {
+        display: flex;
+      }
+      .social-media__support__phone img {
+        width: 20px;
+        transform: scaleX(-1);
+        margin-left: 8px;
+      }
+      .social-media__icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: "IRANSansX-Regular";
+        font-size: 0.9rem;
+        line-height: 1rem;
+        margin-top: 10px;
+      }
+      .social-media__icon {
+        width: 180px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+      }
+      .social-media__icons img {
+        filter: invert(1);
+        width: 40px;
+        padding: 8px;
+        background-color: rgba(207, 205, 205, 0.303);
+        border-radius: 5px;
+      } */
+    .footer__links {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      padding-top: 0px;
+      border-top: none;
+      grid-column: span 2;
+    }
+    /* .footer__link__ul {
+        list-style-type: none;
+      }
+      .footer__link__ul li {
+        padding: 7px 0;
+      }
+      .footer__link__ul a {
+        color: rgb(64 63 63/ 1);
+        font-family: "IRANSansX-Regular";
+        font-size: 0.75rem;
+        text-decoration: none;
+      } */
+    .footer__certificates {
+      /* display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center; */
+      padding: 0;
+      border-top: none;
+      border-bottom: none;
+    }
+    /* .footer__certificates img {
+        width: 65px;
+        height: 65px;
+        margin-left: 25px;
+        border-radius: 10px;
+        background-color: rgba(228, 223, 223, 0.688);
+      } */
+    .site-owner-note {
+      font-family: "IRANSansX-Regular";
+      font-size: 0.6rem;
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+  
+  @media (min-width:1025px) {
+    /* .container {
+      width: 100%;
+      max-width: max-content;
+      margin: 0 auto;
+    } */
+    /* .banner1 {
+      width: 100%;
+      min-height: 300px;
+      background-image: url("../image/banner1-desktab.webp");
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+      position: relative;
+    } */
+    /* .banner1__info {
+      display: flex;
+      position: absolute;
+      bottom: 22px;
+      right: 120px; */
+      /* justify-content: space-between; */
+    /* } */
+    .banner1__info__wts,
+    .banner1__info__tell {
+      margin-left: 20px;
+      /* display: flex; */
+      /* flex-direction: row; */
+      /* margin-bottom: 0;
+        justify-content: space-around; */
+      /* font-family: "IRANSansXFaNum-Bold"; */
+      font-size: 1.4rem;
+      /* line-height: 1rem; */
+      /* color: #403f3f; */
+      /* align-items: center; */
+    }
+    .banner1__info__tell span {
+      font-size: 1rem;
+      /* line-height: 1rem;
+        margin-left: 15px; */
+    }
+    .banner1__info__wts span {
+      width: 40px;
+      height: 40px;
+      /* background-color: #16a34a; */
+      /* padding:4px; */
+      /* border-radius:8px; */
+      margin-left: 8px;
+      /* align-items: center; */
+      /* vertical-align: middle; */
+    }
+    .banner1__info__wts span img {
+      width: 26px;
+      height: 26px;
+      margin: 0;
+      /* color: #16a34a; */
+    }
+    /*--------------------------------------commiunity-box */
+    .commiunity-box {
+      padding: 110px 0;
+    }
+    .why-youtopin {
+      font-size: 1.15rem;
+      padding-bottom: 110px;
+    }
+    .commiunity {
+      padding: 0 220px;
+    }
+    .commiunity__section img {
+      width: 100px;
+      height: 100px;
+    }
+    .commiunity__section span {
+      font-size: 0.9rem;
+    }
+    /*-----------------------------------banner2    */
+  
+    .banner2 {
+      position: relative;
+    }
+    .banner2__mobile-pic {
+      display: inline-block;
+      background-image: url("../image/banner2-mobile-pic.png");
+      width: 295px;
+      height: 385px;
+      position: absolute;
+      right: 50px;
+      bottom: 0;
+    }
+    .banner2 p {
+      font-size: 1.2rem;
+    }
+    .banner2 button {
+      width: 340px;
+    }
+    /*-------------------------------------travelogue*/
+    /* .travelogue {
+      padding-top: 8rem;
+    }
+    .travelogue__text {
+      font-family: "IRANSansXFaNum-Bold";
+      font-size: 1rem;
+    }
+    .travelogue__title {
+      padding-right: 17px;
+      font-family: "IRANSansXFaNum-Bold";
+      font-size: 1rem;
+    }
+     .travelogue__card-box {
+        padding: 34px 25px 9px 35px;
+      }  */
+      /* .card {
+        margin-left: 30px;
+      } */
+      /* .card:hover {
+        box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.25);
+      }
+      .header__prof {
+        width: 3.2rem;
+      }
+      .card__img {
+        width: 255px;
+        height: 290px;
+      } */
+    /*-----------------------------------------------question-box*/
+    /* .questions-box {
+      padding: 85px 40px;
+    }
+    .question {
+      padding-top: 5px;
+    }
+    .content {
+      font-size: 0.83rem;
+    }
+    .questions-box__title {
+      font-weight: 600;
+    } */
+    /*-----------------------------------subscription*/
+    /* .email-request__title h5 {
+      font-size: 2.25rem;
+    }
+    .email-request__input-container input {
+      min-width: 32rem;
+      padding: 0.8rem 0.8rem;
+      font-size: 15px;
+    }
+    .email-request__input-container button {
+      width: 12%;
+    } */
+    /*---------------------------------------footer*/
+    .footer {
+      display: grid;
+      height: fit-content;
+      padding: 17px;
+      border-top: 2px solid rgba(228, 223, 223, 0.688);
+      border-bottom: 2px solid rgba(228, 223, 223, 0.688);
+    }
+    .footer__social-media {
+      width: 100%;
+      height: 150px;
+      display: flex;
+      justify-content: space-around;
+      border-bottom: none;
+      grid-column-start: 1;
+      grid-column-end: 4;
+    }
+    .social-media__support {
+      width: 45%;
+    }
+  
+    .footer__links {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      padding-top: 0px;
+      border-top: none;
+      grid-column-start: 4;
+      grid-column-end: 6;
+    }
+    .footer__link__ul a {
+      font-size: 0.85rem;
+    }
+    .footer__certificates {
+      grid-column: span 5;
+      margin: 20px 0;
+    }
+    .site-owner-note {
+      color: rgb(64, 63, 63);
+      font-size: 0.75rem;
+      text-align: right;
+    }
+  }
+  @media (min-width:1280px) {
+    .footer {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .footer__social-media {
+      width: 100%;
+      height: 150px;
+      display: flex;
+      justify-content: space-around;
+      border-bottom: none;
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+    .footer__links {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      padding-top: 0px;
+      border-top: none;
+      grid-column-start: 3;
+      grid-column-end: 4;
+    }
+    .footer__certificates {
+      grid-column: span 1;
+      margin: 20px 0;
+    }
+  }

@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family:"KalamehWebFaNum-Bold" ;
+  src: url("../font/KalamehWebFaNum-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "IRANSansXFaNum-Medium";
+  src: url("../font/IRANSansXFaNum-Medium.woff");
+}
+@font-face {
+  font-family: "IRANSansX-Regular";
+  src: url("../font/IRANSansX-Regular.woff");
+}
+@font-face {
+  font-family:"IRANSansXFaNum-Bold" ;
+  src: url("../font/IRANSansXFaNum-Bold.woff") format("woff");
+}
