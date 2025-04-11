@@ -1,0 +1,112 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+
+
+
+/* container */
+
+.container{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media(min-width:576px){
+  .container{
+      width: 540px;
+  }
+}
+@media(min-width:768px){
+  .container{
+      width: 720px;
+  }
+}
+@media(min-width:992px){
+  .container{
+      width: 960px;
+  }
+}
+@media(min-width:1200px){
+  .container{
+      width: 1280px;
+  }
+}
+@media(min-width:1400px){
+  .container{
+      width: 1370px;
+  }
+}
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'KalamehWebFaNum-Bold';
+    src: url('./fonts/KalamehWebFaNum-Bold.woff2');
+  }
+  @font-face {
+    font-family: 'IRANSansX-DemiBold';
+    src: url('./fonts/IRANSansX-DemiBold.woff');
+  }
+  @font-face {
+    font-family:'IRANSansXFaNum-Bold' ;
+    src: url('./fonts/IRANSansXFaNum-Bold.woff');
+  }
+  @font-face{
+    font-family: 'IRANSansX-Medium';
+    src: url('./fonts/IRANSansX-Medium.woff');
+  }
+  :root{
+    --KalamehWebFaNum-bold:'KalamehWebFaNum-Bold';
+    --IRANSansX--DemiBold:'IRANSansX-DemiBold';
+    --IRANSansXFaNum-Bold:'IRANSansXFaNum-Bold';
+    --IRANSansX-Medium:'IRANSansX-Medium';
+  }

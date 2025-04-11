@@ -1,0 +1,472 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+html{
+    box-sizing: border-box;
+    direction: rtl;
+
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+/* ********************************* */
+/* all main */
+
+.allmain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+     padding: 0 40px;
+}
+/* تورهای استاندارد یوتوپین */
+
+.main__text{
+    font-size: 20px;
+    display: flex;
+
+}
+.main__text1,.main__svg, .main__sup{
+    color: #17d9ff;
+   
+}
+.main__h2 {
+    font-weight: 900;
+    font-family: var(--IRANSansX-Medium);
+    color: #363636;
+}
+.main__sup{
+    vertical-align: super;
+    position: relative;
+    top: -5px;
+    font-family: var(--IRANSansX--DemiBold);
+}
+.main__svg {
+    position: relative;
+    bottom: -6px;
+}
+
+/* دکمه مشاهده همه */
+.main__allbtn {
+    all: unset;
+    color: #17d9ff;
+    border: 1px solid #17d9ff;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-family: var(--KalamehWebFaNum-Bold);
+}
+.main__allbtn:hover{
+    background: #17d8ff1e;
+    cursor: pointer;
+}
+
+/* ********************************* */
+/* allCart */
+
+.allCart__img1 {
+    background-position: center;
+    background-size: cover;
+    width: 288px;
+    height: 288px;
+    /* object-fit: cover; */
+    border-radius: 10px;
+    width: 100%;
+}
+.allCart__box1{
+    font-size: 13px;
+    padding: 15px ;
+    color: #363636;
+    direction: rtl;
+}
+.allCart__text2,.allCart__footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.allCart__clander{
+    display: flex;
+    align-items: center;
+}
+
+.allCart__icoText{
+    padding-right:5px ;
+    font-size: 12px;
+    font-family:  var(--IRANSansX-Medium);
+
+}
+.allCart__iconEstandart{
+    display: flex;
+    align-items: center; 
+    padding-right: 5px;
+    font-size: 15px;
+    font-family: var(--IRANSansX-Medium);
+}
+
+
+.allCart__text2,.allCart__price,.allCart__footer  {
+    padding-top: 15px;
+}
+.allCart__icoStar{
+    display: flex;
+    align-items: center;
+    background: #c4e0f7;
+    padding: 10px;
+    border-radius: 10px;
+}
+.allCart__star{
+    color: #ffff00;
+    font-size: 20px;
+}
+.allCart__score{
+    padding-right: 5px;
+    font-size: 18px;
+}
+.allCart__icoclander{
+    font-size: 20px;
+    /* margin-right: 10px; */
+}
+.allCart__boxSadow:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.allCart__priceNum{
+    font-size: 20px;
+  padding-left: 7px;
+}
+
+
+/* /* .allCart__svg */
+.allCart__boxSadow--radious{
+    position: relative;
+    width: 100%;
+}
+.allCart__svg{
+    display: none;
+}
+.allCart__boxSadow--radious:hover{
+  .allCart__svg{
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.685);
+    color: #363636;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.allCart__svg:hover{
+    background: #ffffff;
+    color: blue;
+}
+}
+
+
+/* swiper */
+.swiper {
+    /* width: 100%; */
+    height: 100%;
+    padding-bottom: 40px;
+}
+
+.swiper-button-next {
+    padding-right: 15px;
+}
+.swiper-button-prev{
+    padding-left: 15px;
+}
+.mySwiper{
+    padding: 0 40px !important;
+    width: 100% !important;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:270px ;
+  }
+
+.swiper-slide img {
+    display: block;
+    object-fit: cover;
+  }
+.swiper-wrapper{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.swiper.mySwiper.swiper-initialized.swiper-horizontal.swiper-rtl {
+    padding-bottom: 46px;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: 'prev';
+    font-size: 20px;
+    color: #363636;
+    font-weight: 900;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: 'next';
+    font-size: 20px;
+    color: #363636;
+    font-weight: 900;
+   
+}
+.swiper-button-prev:hover::after,
+.swiper-button-next:hover::after{
+    background: #b9b5b5b2;
+    border-radius: 10px;
+    color: #17d9ff;
+    padding: 10px;
+
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next,
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    position: absolute;
+    top: 188px;
+}
+
+
+/* slider */
+.swiper-slide swiper-slide-active{
+    width: 284.5px;
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.allCart__box1--p {
+    font-family: var(--IRANSansX-Medium);
+    font-size: 15px;
+    font-weight: 600;
+    color: #504f4f;
+    display: flex;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.allCart__text3{
+    font-family: var(--IRANSansX-Medium);
+    font-size: 12px;
+}
+.allCart__footer--sport{
+    padding-top: 36px;
+}
+
+.allCart__box1--scr{
+    display: flex;
+}
+
+.allCart__box1--number{
+    font-size: 13px;
+    font-weight: 900;
+    padding-right: 7px;
+}
+.allCart__footer--textCenter{
+    display: flex;
+    align-items: center;
+}
+
+.allCart__textEstandard {
+    font-size: 12px;
+    padding-left: 7px;
+}
+/* تورهای اروپایی */
+.allCart__airplane{
+    font-size: 20px;
+}
+.allCart__price1{
+    display: flex;
+    align-items:center ;
+    /* padding-top: 15px; */
+    padding-top: 29px;
+}
+.allCart__footer--footer1{
+    margin-top: 22px;
+    font-family: var(--IRANSansX-Medium);
+}
+.allCart__footer--textCenter--span{
+    padding-left: 2px;
+    font-size: 20px;
+}
+
+.allCart__price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* font-family: var(--IRANSansX-Medium); */
+}
+h2.allCart__price--h2 {
+    font-size: 19px;
+}
+.allCart__price--spanprice{
+    padding: 0 10px;
+}
+
+.jtabs .jtabs-headers>div:not(.jtabs-border):hover {
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 1px;
+    margin-right: 1px;
+   border-radius: 10px;
+    background-color:#17d9ff !important;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+    white-space: nowrap;
+    text-align: center;
+}
+.jtabs .jtabs-headers-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 1275px;
+}
+.jtabs .jtabs-headers>div:not(.jtabs-border) {
+ 
+    background-color: #ffffff !important;
+    font-weight: 900;
+}
+.Swiper {
+    width: 1245px;
+}
+.allCart__price--h2--h21{
+    font-size:14px !important ;
+    font-weight: 600;
+}
+.allCart__price--plus{
+    padding-left: 5px;
+}
+
+.allCart__price1--price{
+justify-content: center;
+}
+.allCart__price1--price22{
+    justify-content: space-between;
+}
+.allCart__price1--flex{
+    display: flex;
+    align-items: center;
+}
+.allCart__title {
+    display: flex;
+    padding-right: 20px;
+}
+.allCart__title--esfand{
+    padding-right: 6px;
+    font-weight: 200;
+}
+.tabs-list{
+
+    color: #363636;
+}
+
+/* دور دنیا با یوتوپین */
+.allCart__box1--scr--tourEnferadi {
+
+    font-size: 15px;
+    background: #dfdfdf5d;
+    padding: 7px;
+    border-radius: 5px;
+    color: #363636;
+    
+}
+
+.swiper.mySwiper.swiper-initialized.swiper-horizontal.swiper-rtl {
+    padding-bottom: 20px;
+}
+
+.allCart__allmom{
+    position: relative;
+}
+.allCart__takmil {
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    --d: 6px;
+    line-height: 1.25rem;
+    position: absolute;
+    background-color:#f14065 ;
+    font-size: 14px;
+    right: 0px;
+    z-index: 20;
+    bottom: 15%;
+    color: white;
+    padding: 4px 8px;
+    font-family: var(--IRANSansX-Medium);
+    font-size: 15px;
+}
+.main__svg--tourEgtesadi{
+    bottom: -2px;
+    margin-right: 8px;
+}
+
+.allCart__price--price1{
+    margin-top: 13px;
+}
+
+/* دنبال چه توری میگردی؟ */
+
+.allCart__tour{
+    margin: 30px 0 30px 0;
+}
+.allCart__boxFlex{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+.allCart__boxGrid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    width: 760px;
+}
+.allCart__textTop{
+    text-align: center;
+    font-family: var(--IRANSansX-Medium);
+    font-weight: 900;
+}
+.allCart__Box1--img{
+    width: 100%;
+    border-radius: 15px;
+}
+.allCart__Box1--textp{
+    text-align:center;
+    padding: 20px 0;
+    font-weight:400;
+    
+}
+.allCart__Box1{
+    cursor: pointer;
+}
+.allCart__Box1:hover{
+    background: #dbdadac5;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px -1px #3333;
+
+}
+
+/* ::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+} */
